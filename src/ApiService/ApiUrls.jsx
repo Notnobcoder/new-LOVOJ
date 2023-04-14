@@ -1,0 +1,17 @@
+//const Host = "http://localhost:4000/";
+const Host = "https://classysys.com/";
+export const LoginApi = Host + "user/login";
+export const RegisterApi = Host + "user/adduser";
+export const AddFabricApi = Host + "fabric/addfabric";
+export const GetFabricApi = Host + "get-fab";
+export const GetAllFabricApi = Host + "get-all-fab";
+export const UpdateFabricApi = Host + "update-fab";
+export const AddTailor = Host + "tailor/addtailor";
+export const CheckEmail = Host + "tailor/check-email";
+export const AdminLoginApi = Host + "tailor/login";
+export const getTailorApi = Host + "tailor/get-tailor/";
+export const getAllTailorApi = Host + "tailor/get-all-tailors";
+export const getProfileImageApi = Host + "tailor/get-profile-image/";
+export const GetFabThumbApi = Host + "fabric/get-fabric-thumb/";
+export const GetTailorFabricApi = Host + "fabric/get-tailor-fabrics/";
+export const GetFabApi = Host + "fabric/get-fabric/";
